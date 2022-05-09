@@ -1,0 +1,15 @@
+version: "3"
+services:
+  rdmbot:
+    build: .
+    image: rdmbot
+    container_name: rdmbot
+    volumes:
+      - ./backlog.txt:/app/backlog.txt
+    environment:
+      - CONSUMER_KEY=${CONSUMER_KEY}
+      - CONSUMER_SECRET=${CONSUMER_SECRET}
+      - ACCESS_TOKEN=${ACCESS_TOKEN}
+      - ACCESS_TOKEN_SECRET=${ACCESS_TOKEN_SECRET}
+      - DISCORD_BOT_KEY=${DISCORD_BOT_KEY}
+      - TWITTER_ID=${TWITTER_ID}
