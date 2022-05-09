@@ -68,7 +68,7 @@ To get a local copy up and running follow these simple example steps.
 6. Get and store your [Twitter ID](https://tweeterid.com/) for your Developer Account. 
 3. Clone the repo.
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/EvanWilcox/rdmbot
    ```
 
 
